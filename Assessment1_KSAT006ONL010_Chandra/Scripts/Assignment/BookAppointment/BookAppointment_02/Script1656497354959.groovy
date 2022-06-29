@@ -39,5 +39,7 @@ WebUI.setText(findTestObject('Page_CURA Healthcare Service/textarea_Comment_comm
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Book Appointment'))
 
+WebUI.verifyElementPresent(findTestObject('Assignment/Button/h2_Appointment Confirmation'), 0)
+
 WebUI.closeBrowser()
 

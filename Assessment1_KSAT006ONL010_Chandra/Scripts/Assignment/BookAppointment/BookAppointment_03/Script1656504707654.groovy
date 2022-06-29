@@ -49,5 +49,7 @@ WebUI.setText(findTestObject('Object Repository/Assignment/BookAppointment/BookA
 
 WebUI.click(findTestObject('Object Repository/Assignment/BookAppointment/BookAppointment_03/button_Book Appointment'))
 
+WebUI.verifyElementPresent(findTestObject('Assignment/Button/h2_Appointment Confirmation'), 0)
+
 WebUI.closeBrowser()
 

@@ -21,20 +21,18 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Assignment/BookAppointment/BookAppointment_02/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/Assignment/Login/Login_04/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.setText(findTestObject('Object Repository/Assignment/BookAppointment/BookAppointment_02/input_Username_username'), 'John Doe')
+WebUI.click(findTestObject('Object Repository/Assignment/Login/Login_04/a_Login'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Assignment/BookAppointment/BookAppointment_02/input_Password_password'), 
-    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setText(findTestObject('Object Repository/Assignment/Login/Login_04/input_Username_username'), 'jaaaaa')
 
-WebUI.click(findTestObject('Object Repository/Assignment/BookAppointment/BookAppointment_02/button_Login'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Assignment/Login/Login_04/input_Password_password'), 'R4Y7Mg+VLkecUTmEScQk5g==')
 
-WebUI.click(findTestObject('Object Repository/Assignment/BookAppointment/BookAppointment_02/span_Visit Date (Required)_glyphicon glyphi_cada34'))
+WebUI.click(findTestObject('Object Repository/Assignment/Login/Login_04/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Assignment/BookAppointment/BookAppointment_02/td_30'))
+WebUI.verifyElementPresent(findTestObject('Assignment/Login/LoginInfo/LoginFailed/p_Login failed Please ensure the username and password are valid'), 
+    0)
 
-WebUI.setText(findTestObject('Object Repository/Assignment/BookAppointment/BookAppointment_02/textarea_Comment_comment'), 'test')
-
-WebUI.click(findTestObject('Object Repository/Assignment/BookAppointment/BookAppointment_02/button_Book Appointment'))
+WebUI.closeBrowser()
 

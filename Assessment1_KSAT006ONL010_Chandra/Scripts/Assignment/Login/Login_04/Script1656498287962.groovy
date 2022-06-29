@@ -27,10 +27,11 @@ WebUI.click(findTestObject('Object Repository/Assignment/Login/Login_04/a_Login'
 
 WebUI.setText(findTestObject('Object Repository/Assignment/Login/Login_04/input_Username_username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Assignment/Login/Login_04/input_Password_password'), 
-    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Object Repository/Assignment/Login/Login_04/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.click(findTestObject('Object Repository/Assignment/Login/Login_04/button_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Assignment/Button/a_Logout'), 0)
 
 WebUI.closeBrowser()
 
