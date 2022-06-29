@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Success Book an Appointment
+- HongKong CURA Healthcare Center
+- Healthcare program None</description>
+   <name>BookAppointment_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4537498d-1343-4b74-8759-6daa7a9e959f</testCaseGuid>
+</TestCaseEntity>

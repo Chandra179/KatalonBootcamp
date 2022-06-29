@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Success Book an Appointment
+- Facility Seoul CURA Healthcare Center
+- Healthcare program Medicaid</description>
+   <name>BookAppointment_03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c399bc6-9215-437f-bfe5-0d67586ad9a0</testCaseGuid>
+</TestCaseEntity>

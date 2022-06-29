@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Failed book an appointment when appointment date is in past
+- facility  (Tokyo CURA Healthcare center)
+- healthcare program (Medicare)</description>
+   <name>BookAppointment_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aca31010-6695-43b1-88d5-9a840569a680</testCaseGuid>
+</TestCaseEntity>

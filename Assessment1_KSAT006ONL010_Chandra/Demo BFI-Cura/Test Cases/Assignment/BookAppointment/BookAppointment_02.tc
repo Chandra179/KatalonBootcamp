@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Success book an appointment
+- Facility (Tokyo CURA Healthcare center)
+- Healthcare program (Medicare)</description>
+   <name>BookAppointment_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6ceab23-d1d4-4bcc-9549-2e76fd3e164a</testCaseGuid>
+</TestCaseEntity>
