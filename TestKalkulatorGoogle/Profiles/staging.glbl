@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>staging</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://www.google.com/'</initValue>
       <name>googleURL</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'KYTS5tmdQyg='</initValue>
-      <name>tesEncrypt</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

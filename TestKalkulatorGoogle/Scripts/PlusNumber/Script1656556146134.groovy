@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.google.com/')
+WebUI.navigateToUrl(GlobalVariable.googleURL)
 
 WebUI.waitForElementPresent(findTestObject('GoogleSearch/google search'), 0)
 
-WebUI.setText(findTestObject('GoogleSearch/google search'), '2+2')
+WebUI.setText(findTestObject('GoogleSearch/google search'), plus22)
 
-WebUI.waitForElementPresent(findTestObject('GoogleSearch/2_plus_2'), 0)
+WebUI.waitForElementPresent(findTestObject('GoogleSearch/2_plus_2'), timeout)
 
 WebUI.click(findTestObject('GoogleSearch/2_plus_2'))
 
-WebUI.verifyElementText(findTestObject('Result/result_4'), '4')
+WebUI.verifyElementText(findTestObject('Result/result_4'), result)
+
+WebUI.setEncryptedText(findTestObject('GoogleSearch/google search'), GlobalVariable.tesEncrypt)
 

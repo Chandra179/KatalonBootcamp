@@ -5,4 +5,43 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>03e748e0-55ff-4953-9910-e462d4d659a9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ae6260b-0d5f-4011-baf4-814bcf7c302a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03293138-ddf7-4dd4-943a-95a80b416c0f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c4272cd-6a2c-48e2-a2d3-8ff0462fdfa5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2+2'</defaultValue>
+      <description></description>
+      <id>2ae6260b-0d5f-4011-baf4-814bcf7c302a</id>
+      <masked>false</masked>
+      <name>plus22</name>
+   </variable>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description></description>
+      <id>03293138-ddf7-4dd4-943a-95a80b416c0f</id>
+      <masked>false</masked>
+      <name>result</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>6c4272cd-6a2c-48e2-a2d3-8ff0462fdfa5</id>
+      <masked>true</masked>
+      <name>timeout</name>
+   </variable>
 </TestCaseEntity>
