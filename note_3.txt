@@ -1,0 +1,7 @@
+wait for element _daripada_ delay
+
+Send Keys -> untuk debugging
+cth: 
+keys control
+keys numpad1
+keys numpad2
