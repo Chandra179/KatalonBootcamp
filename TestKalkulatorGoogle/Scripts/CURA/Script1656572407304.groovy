@@ -19,15 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.googleURL)
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.waitForElementPresent(findTestObject('GoogleSearch/google search'), 0)
+WebUI.click(findTestObject('Object Repository/CURA/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.setEncryptedText(findTestObject('GoogleSearch/google search'), plus22)
+WebUI.click(findTestObject('Object Repository/CURA/Page_CURA Healthcare Service/a_Login'))
 
-WebUI.waitForElementPresent(findTestObject('GoogleSearch/2_plus_2'), timeout)
+WebUI.click(findTestObject('Object Repository/CURA/Page_CURA Healthcare Service/input_Demo account_form-control'))
 
-WebUI.click(findTestObject('GoogleSearch/2_plus_2'))
+WebUI.setText(findTestObject('Object Repository/CURA/Page_CURA Healthcare Service/input_Username_username'), username)
 
-WebUI.verifyElementText(findTestObject('Result/result_4'), result)
+WebUI.setText(findTestObject('Object Repository/CURA/Page_CURA Healthcare Service/input_Password_password'), password)
+
+WebUI.click(findTestObject('Object Repository/CURA/Page_CURA Healthcare Service/button_Login'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Object Repository/CURA/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+
+WebUI.click(findTestObject('Object Repository/CURA/Page_CURA Healthcare Service/a_Logout'))
+
+WebUI.closeBrowser()
 

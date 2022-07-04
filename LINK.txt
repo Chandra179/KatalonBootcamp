@@ -1,0 +1,26 @@
+Data Driven Testing via Database MySQL:
+https://docs.katalon.com/docs/katalon-studio-enterprise/test-execution/data-driven-testing/implement-data-driven-testing-with-mysql
+
+Custom Keyword dengan Database:
+https://docs.katalon.com/docs/katalon-studio-enterprise/extend-katalon-studio/custom-keywords/how-to-perform-database-testing-using-katalon-studio
+
+Contoh custom keyword orang lain:
+https://medium.com/dsf-developers/utilize-custom-keywords-in-katalon-studio-c52b46e82b39
+https://github.com/katalon-studio/katalon-studio-ashot-plugin
+
+Handling Dropdown:
+https://docs.katalon.com/docs/katalon-studio-enterprise/test-execution/advanced-guides/web-testing/how-to-handle-drop-down-menu#select-option-by-index
+https://docs.katalon.com/docs/katalon-studio-enterprise/test-execution/advanced-guides/web-testing/how-to-handle-drop-down-menu#select-option-by-value
+
+Tentang sample BDD Cucumber Project:
+https://docs.katalon.com/docs/katalon-studio-enterprise/get-started/sample-projects/sample-bdd-cucumber-tests-project
+
+In case ada yg butuh website/API/App dummy buat latian (akan di update secara berkala seiring berjalannya topik kelasnya):
+https://opensource-demo.orangehrmlive.com/
+https://www.saucedemo.com/
+
+Cara rubah encryption password:
+https://forum.katalon.com/t/store-encrypted-passwords-in-scripts/12017
+
+Base encryptionnya katalon:
+https://katalonsupport.force.com/katalonhelpcenter/s/article/What-type-of-encryption-does-the-Encrypt-Text-tool-in-Katalon-Studio-use
